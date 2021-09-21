@@ -19,7 +19,7 @@ public class Steps {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://site.getnet.com.br/");
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
     @Quando("navegar pelo site")
@@ -27,13 +27,13 @@ public class Steps {
         driver.findElement(By.id("u-depth1__item-15214")).click();
         driver.findElement(By.id("u-depth3__item-15218")).click();
         driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div[1]/div/a[5]")).click();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @Entao("validar que o modal foi mostrado corretamente")
     public void validar_que_o_modal_foi_mostrado_corretamente() {
         WebElement resultsearch = driver.findElement(By.xpath("/html/body/div[2]/div/section/div[2]/a[1]"));
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        System.out.println("O modal foi verificado com sucesso");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        System.out.println("Modal verificado com sucesso");
         driver.close();
     }
 }
