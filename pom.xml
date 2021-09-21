@@ -19,7 +19,7 @@
         </plugins>
     </build>
 
-    <groupId>stepdefinitions</groupId>
+    <groupId>StepDefinitions</groupId>
     <artifactId>automacao_superget</artifactId>
     <version>1.0-SNAPSHOT</version>
 
