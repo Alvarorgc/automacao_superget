@@ -19,7 +19,7 @@
         </plugins>
     </build>
 
-    <groupId>org.testProj</groupId>
+    <groupId>Steps</groupId>
     <artifactId>automacao_superget</artifactId>
     <version>1.0-SNAPSHOT</version>
 
