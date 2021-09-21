@@ -34,6 +34,12 @@
         <artifactId>cucumber-java</artifactId>
         <version>6.10.4</version>
     </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -47,5 +53,5 @@
                 <version>3.141.59</version>
             </dependency>
     </dependencies>
-    
+
 </project>
